@@ -2,6 +2,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { ErrorScreen } from "../views/screens/ErrorScreen";
 import { HomeScreen } from '../views/screens/HomeScreen';
 
 export const Root = () => {
@@ -9,6 +10,7 @@ export const Root = () => {
     {
       path: "/",
       element: <HomeScreen />,
+      errorElement: <ErrorScreen />
     },
   ]);
 
