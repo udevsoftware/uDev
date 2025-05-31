@@ -10,6 +10,12 @@
   --accent: #F5AF00;
 }
 
+#h2-consulta {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 32px;
+}
+
 /* Reset */
 * {
   margin: 0;
@@ -177,7 +183,7 @@ body {
 }
 
 .hero-subtitle {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -232,10 +238,15 @@ body {
   margin-bottom: 2rem;
   color: #555;
   font-size: 18px;
-  text-align: center;
 }
 
 /* ===== PROCESO DE TRABAJO ===== */
+  #h2-process {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+  }
+
+
 .process h2 {
   text-align: center;
   margin-bottom: 0.5rem;
@@ -274,6 +285,12 @@ body {
 }
 
 /* ===== CARD WRAPPER ===== */
+#h2-what {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 32px;
+}
+
 .what-we-do-card {
   background: var(--gray-light);
 }
@@ -295,7 +312,7 @@ body {
 }
 
 .card-text {
-  flex: 1 1 280px;
+  flex: 10 1 280px;
 }
 
 .card-text h2 {
@@ -350,7 +367,7 @@ body {
 }
 
 .consulta-section .card-content {
-  max-width: 480px;
+  max-width: 580px;
   margin: 0 auto;
   padding: 2rem;
 }
