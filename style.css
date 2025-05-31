@@ -241,10 +241,10 @@ body {
 }
 
 /* ===== PROCESO DE TRABAJO ===== */
-  #h2-process {
-    font-size: 32px;
-    margin-bottom: 1.5rem;
-  }
+#h2-process {
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+}
 
 
 .process h2 {
@@ -465,6 +465,21 @@ body {
 }
 
 @media (max-width: 768px) {
+  .lead {
+    font-size: 16px;
+  }
+
+  #h2-what {
+    font-size: 22px;
+  }
+
+  #h2-process {
+    font-size: 22px;
+  }
+
+  #h2-consulta {
+    font-size: 22px;
+  }
 
   /* Mostrar hamburguesa y ocultar menú */
   .navbar:not(.scrolled) .logo,
@@ -560,6 +575,22 @@ body {
 }
 
 @media (max-width: 480px) {
+  .lead {
+    font-size: 16px;
+  }
+
+  #h2-what {
+    font-size: 22px;
+  }
+
+  #h2-process {
+    font-size: 22px;
+  }
+
+  #h2-consulta {
+    font-size: 22px;
+  }
+
   .card-media {
     display: none;
   }
